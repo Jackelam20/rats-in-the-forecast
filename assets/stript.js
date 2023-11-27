@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const fiveDayForecastDiv = document.getElementById("fiveDayForecast");
     const searchHistoryList = document.getElementById("searchHistory");
     const clearHistoryButton = document.getElementById("clearHistoryButton");
-    const ratForecastAppKey = 'c7f0df48919e4a75f91e9cfc665f3105'; 
+    const ratForecastAppKey = ''; 
 
 
   
