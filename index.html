@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Psychic</title>
+  
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.5/dist/css/foundation.min.css"
+      crossorigin="anonymous"
+    />
+    
+    <link rel="stylesheet" href="./Assets/css/style.css" />
+  </head>
+  <body>
+    <div class="grid-container">
+      
+      <div class="grid-x grid-padding-x hero-section">
+        <div class="cell medium-12">
+          <h1>Rats In the Forecast</h1>
+          
+        </div>
+      </div>
+
+      <div class="grid-x">
+        
+        <div class="cell medium-4 form-container">
+          <h2>Where do you want to go?</h2>
+          <form id="weatherForm">
+            <input
+              type="text"
+              id="cityInput"
+              name="city"
+              placeholder="Enter city name"
+            />
+            <button type="submit" class="button">Get Weather</button>
+          </form>
+          
+          <ul id="searchHistory" class="cursor-pointer"></ul>
+          
+          <button id="clearHistoryButton" class="button secondary">
+            Clear Search History
+          </button>
+        </div>
+        
+ 
+  <div class="cell medium-8">
+    <div id="weatherForecast">
+      
+    </div>
+   
+    <div id="fiveDayForecast" class="grid-x grid-padding-40px"></div>
+  </div>
+</div>
+</div>
+  
+
+   
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.6.3/js/foundation.min.js"></script>
+    
+    <script src="./Assets/js/script.js"></script>
+    
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
