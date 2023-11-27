@@ -1,21 +1,24 @@
 # rats-in-the-forecast
 
+## Description
+This is a project to show the weather forecast in a searched area. The user can search for a city and the weather forecast will be displayed. The user can also save the city to a list of saved cities. The user can then click on the saved city and the weather forecast will be displayed again. The user can also delete the saved city from the list.
+
+## Table of Contents
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Questions](#questions)
+
+## Installation
+to use this application just go to the following link
 
 
-## User Story
+## Usage
+ The user can search for a city and the weather forecast will be displayed. The user can also save the city to a list of saved cities. The user can then click on the saved city and the weather forecast will be displayed again. The user can also delete the saved city from the list.
 
-AS A traveler
-I WANT to see the weather outlook for multiple cities
-SO THAT I can plan a trip accordingly
+## License
+This project is licensed under the MIT license.
 
-## Acceptance Criteria
+## Credits
+This Website was made with help form k8sterchi (https://github.com/k8sterchi)
 
-GIVEN a weather dashboard with form inputs
-WHEN I search for a city
-THEN I am presented with current and future conditions for that city and that city is added to the search history
-WHEN I view current weather conditions for that city
-THEN I am presented with the city name, the date, an icon representation of weather conditions, the temperature, the humidity, and the the wind speed
-WHEN I view future weather conditions for that city
-THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, the wind speed, and the humidity
-WHEN I click on a city in the search history
-THEN I am again presented with current and future conditions for that city
